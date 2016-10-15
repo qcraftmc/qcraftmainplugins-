@@ -57,3 +57,4 @@ version: 1.0
 main: pw.qcraft.plugin.customjoinmessage.Core
 author: Mr_JaVa_
 description: allows you to display a title message or a chat message on player join!
+
