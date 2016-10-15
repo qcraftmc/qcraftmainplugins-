@@ -44,3 +44,16 @@ e.getPlayer().sendTitle(core.getConfig().getString("line1"), core.getConfig().ge
 		}
 	}
 }
+-=-=-=-=
+Config.yml
+titlemessage: false
+line1: §3Welcome to my server!
+line2: §6Enjoy! 
+chatmessage: §2Welcome to my server! Enjoy!
+-=-=-=-=
+Plugin.yml
+name: CJM
+version: 1.0
+main: pw.qcraft.plugin.customjoinmessage.Core
+author: Mr_JaVa_
+description: allows you to display a title message or a chat message on player join!
