@@ -1,4 +1,0 @@
-# qcraftmainplugins-
-# playerinfoUPDATER
-# playerinfoUPDATER
-# QcraftPLUGINBANNER
