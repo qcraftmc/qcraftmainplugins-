@@ -1,3 +1,17 @@
+<script>
+//ajax call via jQuery/Prototype loading content into div below
+    $.ajax({
+        url: "somepage.php",
+        data: 'yourParameters'
+        },
+        success: function(data){
+            $('#loadhtmlinviaAjax').show(); //toggle display status of this div as required
+            $('#loadhtmlinviaAjax').html(data);
+        }
+    });
+</script>
+
+<div id="loadhtmlinviaAjax" style="display: none;"></div>
 <title> Qcraft AUTH Server </title>
 KEY:c6feaccc14d72437b8de54a0c00162a0b2866589029b6d848f5be709ebf644c6REG:Qcraft.pw
 <br>
