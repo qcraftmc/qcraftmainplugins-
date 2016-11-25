@@ -5,3 +5,6 @@ AddType application/x-httpd-php-source .phps
 AddHandler php5-script .php
 ?>
 
+
+
+
